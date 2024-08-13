@@ -16,7 +16,7 @@ This project is a web application that allows users to bookmark their favorite w
 
 ## Usage
 
-1. Open the [live demo](https://fawzeyabdelkader.github.io/Bookmarker/) of the project.
+1. Open the [live demo](https://aymanrashedsakr.github.io/Bookmarker/) of the project.
 2. Enter a valid site name and URL in the respective input fields.
 3. Click the "Add Bookmark" button to save the bookmark.
 4. Existing bookmarks are displayed in a table with options to visit the website or delete the bookmark.
