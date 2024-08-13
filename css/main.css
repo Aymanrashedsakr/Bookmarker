@@ -1,0 +1,158 @@
+  body{
+    font-family: "PT Sans Caption", sans-serif;
+
+  }
+::selection {
+    background-color: #ebbc70 ;
+    color: #352e28 ;
+}
+ main{
+    background-image: url(../images/dark.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    /* background-color: #f7ecde; */
+    /* background-color: cadetblue; */
+  }
+ main h1 {
+    font-size: 50px;
+     color: #635549;
+     font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style:italic;
+    position: relative;
+    z-index: 1;
+     
+}
+main h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+main h1:hover::before {
+    height: 50%;
+}
+.bookmark{
+border-width: 2px 0 2px 0;
+border-style:dashed;
+border-color: #888888a2;
+}
+
+.bookmark h2 {
+font-family: "Righteous", cursive;
+font-size: 25px;
+background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+background-clip: text;
+color: transparent;
+}
+ 
+
+.form-control:focus
+{
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+.btn-submit{
+     color: #fff;
+    background-color: #d1512ddb;
+ 
+}
+.btn-submit:hover{
+      color: #fff;
+    background-color: #1a100ea0;
+    border-color: #b74627;
+}
+
+
+
+
+
+ 
+tbody  .visit{
+    color: #fff;
+    background-color: #9eb23b  ;
+     border-color: #9eb23b  ;
+ 
+}
+tbody  .visit:hover{
+  
+    color: #fff  ;
+    background-color: #8a9e23  ;
+     border-color: #6e8018  ;
+}
+tbody .delete{   
+color: #fff;
+background-color: #eb1d36;
+ border-color: #eb1d36;
+ 
+}
+tbody .delete:hover{   
+ 
+color: #fff;
+background-color: #d30820;
+ border-color: #ba081d;
+}
+
+
+
+
+
+/* AlertBox Start*/
+.box {
+    width: 500px;
+    z-index: 10;
+}
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+    background-color: #4db748;
+}
+.box p {
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}
+.rules li {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.rules i {
+    color: #bb4120;
+}
+/* AlertBox End*/
+
+
+
+.hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(33, 37, 41, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     z-index: 2;
+}
